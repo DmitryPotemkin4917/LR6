@@ -10,15 +10,15 @@
 
 Сделаем копию в личное хранилище из https://github.com/Kurtyanik/LR6/
 
-![1](D:\Git\LR6\screenshots\1.png)
+![1](https://github.com/DmitryPotemkin4917/LR6/blob/ReportBranch/screenshots/1.png)
 
 установим git
 
-![2](D:\Git\LR6\screenshots\2.png)
+![2](https://github.com/DmitryPotemkin4917/LR6/blob/ReportBranch/screenshots/2.png)
 
 настроим клиент git, введя имя пользователя (Группа Фамилия И.О.) и email. 
 
-![3](D:\Git\LR6\screenshots\3.png)
+![3](https://github.com/DmitryPotemkin4917/LR6/blob/ReportBranch/screenshots/3.png)
 
 Команды:
 
@@ -29,7 +29,7 @@ git config --global user.email 'dmitry.potemkin@gmail.com'
 
 Клонируем удалённый репозиторий на компьютер, после чего сделаем коммит:
 
-![4](D:\Git\LR6\screenshots\4.png)
+![4](https://github.com/DmitryPotemkin4917/LR6/blob/ReportBranch/screenshots/4.png)
 
 Команды:
 
@@ -41,15 +41,15 @@ git commit -m "комментарий"
 
 Добавим файл через интерфейс github:
 
-![5](D:\Git\LR6\screenshots\5.png)
+![5](https://github.com/DmitryPotemkin4917/LR6/blob/ReportBranch/screenshots/5.png)
 
 
 
-![6](D:\Git\LR6\screenshots\6.png)
+![6](https://github.com/DmitryPotemkin4917/LR6/blob/ReportBranch/screenshots/6.png)
 
 Подтянем изменения в локальный репозиторий:
 
-![7](D:\Git\LR6\screenshots\7.png)
+![7](https://github.com/DmitryPotemkin4917/LR6/blob/ReportBranch/screenshots/7.png)
 
 Команды:
 
@@ -59,11 +59,11 @@ git pull
 
 сделаем коммит
 
-![8](D:\Git\LR6\screenshots\8.png)
+![8](https://github.com/DmitryPotemkin4917/LR6/blob/ReportBranch/screenshots/8.png)
 
 Получим историю операций:
 
-![9](D:\Git\LR6\screenshots\9.png)
+![9](https://github.com/DmitryPotemkin4917/LR6/blob/ReportBranch/screenshots/9.png)
 
 Команды:
 
@@ -73,9 +73,9 @@ git log
 
 Создадим новую ветку, в которой создадим текстовый файл и закоммитим его:
 
-![10](D:\Git\LR6\screenshots\10.png)
+![10](https://github.com/DmitryPotemkin4917/LR6/blob/ReportBranch/screenshots/10.png)
 
-![11](D:\Git\LR6\screenshots\11.png)
+![11](https://github.com/DmitryPotemkin4917/LR6/blob/ReportBranch/screenshots/11.png)
 
 Команды:
 
@@ -88,7 +88,7 @@ git commit -m "комментарий"
 
 Произведём слияние:
 
-![12](D:\Git\LR6\screenshots\12.png)
+![12](https://github.com/DmitryPotemkin4917/LR6/blob/ReportBranch/screenshots/12.png)
 
 Команды:
 
@@ -99,7 +99,7 @@ git merge Ветка_с_которой_нужно_произвести_слия�
 
 После успешного слияния удалим побочную ветку:
 
-![13](D:\Git\LR6\screenshots\13.png)
+![13](https://github.com/DmitryPotemkin4917/LR6/blob/ReportBranch/screenshots/13.png)
 
 Команды:
 
@@ -109,11 +109,11 @@ git branch -d newbranch
 
 Сделаем несколько изменений и зафиксируем их:
 
-![14](D:\Git\LR6\screenshots\14.png)
+![14](https://github.com/DmitryPotemkin4917/LR6/blob/ReportBranch/screenshots/14.png)
 
 Сделаем "Хард" откат коммита
 
-![15](D:\Git\LR6\screenshots\15.png)
+![15](https://github.com/DmitryPotemkin4917/LR6/blob/ReportBranch/screenshots/15.png)
 
 Команды:
 
@@ -123,7 +123,7 @@ git reset --hard хэш
 
 Создадим ветку для отчёта:
 
-![16](D:\Git\LR6\screenshots\16.png)
+![16](https://github.com/DmitryPotemkin4917/LR6/blob/ReportBranch/screenshots/16.png)
 
 Команды: 
 
@@ -135,11 +135,11 @@ git checkout -b ReportBranch
 
 Для ветки ReportBranch:
 
-![17](D:\Git\LR6\screenshots\17.png)
+![17](https://github.com/DmitryPotemkin4917/LR6/blob/ReportBranch/screenshots/17.png)
 
 Для ветки master:
 
-![18](D:\Git\LR6\screenshots\18.png)
+![18](https://github.com/DmitryPotemkin4917/LR6/blob/ReportBranch/screenshots/18.png)
 
 Команды:
 

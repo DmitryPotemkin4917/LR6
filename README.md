@@ -90,10 +90,44 @@ git commit -m "комментарий"
 
 ![12](D:\Git\LR6\screenshots\12.png)
 
-Код:
+Команды:
 
 ```
 git checkout Ветка_в_которую_нужно_перейти
 git merge Ветка_с_которой_нужно_произвести_слияние
+```
+
+После успешного слияния удалим побочную ветку:
+
+![13](D:\Git\LR6\screenshots\13.png)
+
+Команды:
+
+```
+git branch -d newbranch
+```
+
+Сделаем несколько изменений и зафиксируем их:
+
+![14](D:\Git\LR6\screenshots\14.png)
+
+Сделаем "Хард" откат коммита
+
+![15](D:\Git\LR6\screenshots\15.png)
+
+Команды:
+
+```
+git reset --hard хэш
+```
+
+Создадим ветку для отчёта:
+
+![16](D:\Git\LR6\screenshots\16.png)
+
+Команды: 
+
+```
+git checkout -b ReportBranch
 ```
 
